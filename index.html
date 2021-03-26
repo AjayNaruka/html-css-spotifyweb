@@ -20,34 +20,47 @@
         <div class="logo mrg-left-20">
           <img src="spotify/img/logo.svg" alt="">
         </div>
+        <div class="logo-xs">
+          <img src="spotify/img/logo-small.svg" alt="">
+        </div>
         <!-- SELECTION MENU -->
         <div class="menu-sections ">
           <ul>
-            <li class="menu-selected"><img src="spotify/img/home.svg" alt=""><span>Home</span></li>
-            <li><img src="spotify/img/search.svg" alt="">Cerca</li>
-            <li><img src="spotify/img/libreria.svg" alt="">La tua libreria</li>
+            <li class="menu-selected"><img src="spotify/img/home.svg" alt=""><a href="#" class="hide-xs">Home</a></li>
+            <li><img src="spotify/img/search.svg" alt=""><a href="#" class="hide-xs"> Cerca</a></li>
+            <li><img src="spotify/img/libreria.svg" alt=""><a href="#" class="hide-xs">La tua libreria</a></li>
           </ul>
         </div>
         <!-- PLAYLISTS -->
-        <div class="left-section mrg-left-20">
+        <div class="left-section mrg-left-20 hide-xs">
           <div class="left-section-title">
-            <h3>PLAYLIST</h3
-              ></div>
-          <div class="create-playlist">
-            <div class="plus-box f-left"><span class="plus-symbol">+</span></div>
-            <span>Crea Playlist</span>
+            <h3>PLAYLIST</h3>
           </div>
           <ul>
-            <li>Crea Playlist</li>
-            <li>Crea Playlist</li>
-            <li>Crea Playlist</li>
-            <li>Crea Playlist</li>
-            <li>Crea Playlist</li>
-            <li>Crea Playlist</li>
-            <li>Crea Playlist</li>
+            <li><a href="#">Crea Playlist</a></li>
+            <li><a href="#">Crea Playlist</a></li>
+            <li><a href="#">Crea Playlist</a></li>
+            <li><a href="#">Crea Playlist</a></li>
+            <li><a href="#">Crea Playlist</a></li>
+            <li><a href="#">Crea Playlist</a></li>
+            <li><a href="#">Crea Playlist</a></li>
+            
+           
           </ul>
-
-        </div>      
+          
+        </div>  
+        <!-- USER -->
+        <div class="left-bottom">
+          <div class="row download">
+            <a href="#"><i class="far fa-arrow-alt-circle-down"></i> <span class="hide-xs">Installa App</span></a>
+          </div>
+          <div class="row user clearfix">
+            <div class="user-pic f-left">
+              <img src="spotify/img/profile.svg" alt="">
+            </div>
+            <div class="user-name f-left hide-xs"><span class="hide-xs">John Doe</span></div>
+          </div>
+        </div>    
       </div>
       
 
@@ -213,6 +226,45 @@
       </div>
     </div>
   </main>
-  <footer></footer>
+  <footer>
+    <div class="left-player">
+      <img src="spotify/img/sinister.jpeg" alt="">
+      <div class="playing-track">
+        <div class="playin-song">Hyperreal</div>
+        <div class="playin-artist">Flume</div>
+      </div>
+      <div class="save-icons">
+        <a href="#"><i class="far fa-heart"></i></a>
+        <a href="#"><i class="far fa-folder"></i></a>
+      </div>
+    </div>
+    <div class="center-player">
+      <div class="row buttons">
+        <ul>
+          <li><a href="#"><i class="fas fa-random"></i></a></li>
+          <li><a href="#"><i class="fas fa-step-backward"></i></a></li>
+          <li><a href="#"><i class="far fa-play-circle"></i></a></li>
+          <li><a href="#"><i class="fas fa-step-forward"></i></a></li>
+          <li><a href="#"><i class="fas fa-redo-alt"></i></a></li>
+        </ul>
+      </div>
+      <div class="row bar">
+        <div class="total-length">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+    </div>
+    <div class="right-player">
+      <div class="right-icons white-text">
+        <a href="#"><i class="fas fa-list"></i></a>
+        <a href="#"><i class="fas fa-desktop"></i></a>
+        <a href="#"><i class="fas fa-volume-up"></i></a>
+      </div>
+      <div class="volume">
+         <div class="volume-progress"></div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
