@@ -26,9 +26,9 @@
         <!-- SELECTION MENU -->
         <div class="menu-sections ">
           <ul>
-            <li class="menu-selected"><img src="spotify/img/home.svg" alt=""><a href="#" class="hide-xs">Home</a></li>
+            <li ><img src="spotify/img/home.svg" alt=""><a href="#" class="hide-xs">Home</a></li>
             <li><img src="spotify/img/search.svg" alt=""><a href="#" class="hide-xs"> Cerca</a></li>
-            <li><img src="spotify/img/libreria.svg" alt=""><a href="#" class="hide-xs">La tua libreria</a></li>
+            <li class="menu-selected"><img src="spotify/img/libreria.svg" alt=""><a href="#" class="hide-xs">La tua libreria</a></li>
           </ul>
         </div>
         <!-- PLAYLISTS -->
@@ -37,7 +37,7 @@
             <h3>PLAYLIST</h3>
           </div>
           <ul>
-            <li><a href="#">Crea Playlist</a></li>
+            <li><a href="#"> <span class="plus-sign">+</span> Crea Playlist</a></li>
             <li><a href="#">Crea Playlist</a></li>
             <li><a href="#">Crea Playlist</a></li>
             <li><a href="#">Crea Playlist</a></li>
@@ -227,23 +227,26 @@
     </div>
   </main>
   <footer>
+    <!-- LEFT FOOTER -->
     <div class="left-player">
       <img src="spotify/img/sinister.jpeg" alt="">
       <div class="playing-track">
-        <div class="playin-song">Hyperreal</div>
-        <div class="playin-artist">Flume</div>
+        <div class="playin-song"><a href="#">Hyperreal</a></div>
+        <div class="playin-artist"><a href="#">Flume</a></div>
       </div>
       <div class="save-icons">
         <a href="#"><i class="far fa-heart"></i></a>
         <a href="#"><i class="far fa-folder"></i></a>
       </div>
     </div>
+
+    <!-- CENTER FOOTER -->
     <div class="center-player">
       <div class="row buttons">
         <ul>
           <li><a href="#"><i class="fas fa-random"></i></a></li>
           <li><a href="#"><i class="fas fa-step-backward"></i></a></li>
-          <li><a href="#"><i class="far fa-play-circle"></i></a></li>
+          <li><a href="#"><i class="far fa-play-circle big-icon"></i></a></li>
           <li><a href="#"><i class="fas fa-step-forward"></i></a></li>
           <li><a href="#"><i class="fas fa-redo-alt"></i></a></li>
         </ul>
@@ -254,6 +257,8 @@
         </div>
       </div>
     </div>
+    
+    <!-- RIGHT FOOTER -->
     <div class="right-player">
       <div class="right-icons white-text">
         <a href="#"><i class="fas fa-list"></i></a>
