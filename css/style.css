@@ -161,7 +161,12 @@ main{
   display: none;
 }
 .left-menu .left-section{
-  overflow: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.overflowed{
+  overflow-y: auto;
 }
 .left-menu .left-section .left-section-title{
   color: white;
@@ -174,7 +179,7 @@ main{
    /* background-color: red; */
  }
 
- .left-menu .left-section ul li span.plus-sign{
+ .left-menu .left-section span.plus-sign{
    display: inline-block;
    background-color: #A3A3A3;
    height: 35px;
@@ -186,7 +191,7 @@ main{
   margin-right: 5px;
   color: black;
  }
- .left-menu .left-section ul li:hover span.plus-sign{
+ .left-menu .left-section a:hover span.plus-sign{
    color: white;
  }
  
